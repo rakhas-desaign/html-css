@@ -1,41 +1,32 @@
-html{
- box-sizing: border-box;
- background-color: #f2f1ed;
- font-family: Georgia,serif;
- line-height: 1,5;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
 }
 
-*,*::before, *::after{
- box-sizing: inherit;
+body {
+  font-family: "Avenir Next";
 }
-img{
- width: 100%;
-}
-h1,h2{
- color: #5d8432;
- text-transform: uppercase;
-}
-figcaption{
- font-size: .8rem;
- font-style: italic;
- text-align: center;
-}
-nav{
- font-size: 1.125rem;
- font-weight: bold;
 
+li {
+  list-style: none;
 }
-nav ol{
- list-style-type: none;
+
+.header {
+ background-color: #26d0c9;
+ color: #fff;
+ height: 90px;
 }
-nav a{
- color: #793284;
- text-decoration: none;
+
+.header-logo {
+ float: left;
+ font-size: 36px;
+ padding: 20px 40px;
 }
-nav a:hover{
- color: #b42885;
- text-decoration: underline;
-}
-.intro{
- font-size: 1rem;
+
+.header-list li {
+ float: left;
+ padding: 33px 20px;
 }

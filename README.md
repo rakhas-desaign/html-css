@@ -1,2 +1,2 @@
 # html-css
-beljar target
+belajar target
